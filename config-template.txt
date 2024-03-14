@@ -1,0 +1,29 @@
+# This is a template config file. This file indicates the path to the receptor and ligand that will be docked.
+# The paths where your output and log files will be saved are also included. This allows Vina to run batches of
+# docking assays in an orderly manner.
+
+# NOTE: For receptor, output and log folderes, write your folder paths and be sure to add the lines: "\template.pdbqt,
+# \out-template.pdbqt, and \log-template.pdbqt" so batch-config.py runs as intended. 
+
+receptor = "path\to\recpetor\folder\template.pdbqt"
+
+# For the ligand variable, do write your full path to your ligand.pdbqt file.
+ligand = "path\to\ligand\folder\ligand.pdbqt"
+
+out = "path\to\output\folder\out-template.pdbqt"
+
+# The coordinates have to be added manually to each config file due to the receptors' unique geometries. In special cases
+# where the same grid box coordinates can be used, you can add them to this template file to save time.
+
+center_x =	
+center_y =	
+center_z =	
+
+size_x = 
+size_y = 
+size_z = 
+
+# Using default exhaustiveness, this can be updated if necessary.
+exhaustiveness = 8
+
+log = "path\to\log\folder\log-template.txt"
