@@ -1,0 +1,41 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Autodock Vina Batch Script
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Kendra
+    family-names: Ramirez-Acosta
+    email: g3_rama14@ens.cnyn.unam.mx
+    affiliation: UNAM
+    orcid: 'https://orcid.org/0000-0003-2228-2435'
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.12702540
+repository-code: 'https://github.com/KendraR9/Autodock-vina-batch'
+abstract: >-
+  Here you will find a set of python scripts to help prepare
+  and manage batch molecular docking assays done in Autodock
+  Vina.
+
+
+  Autodock Vina is traditionally used to perform virtual
+  screening from massive ligand libraries. For inverse
+  molecular docking, one or few ligands are docked to a
+  library of receptors. The scripts found in this repository
+  automatize receptor preparation using the routines
+  included in Autodock Tools. Config file preparation is
+  automatized but the grid box dimensions and positions need
+  to be manually added. It is also possible to perform a
+  batch run in vina with these scripts.
+keywords:
+  - molecular docking
+  - autodock vina
+  - batch
+license: MIT
+version: v1.0.0
+date-released: '2024-03-13'
